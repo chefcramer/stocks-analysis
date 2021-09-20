@@ -23,7 +23,13 @@ Dim tickers(11) As String
     tickers(11) = "VSLR"
 ```
 
-	The next step was to tell the progarm to examine all of the rows in the data sheet, `RowCount = Cells(Rows.Count, "A").End(xlUp).Row` . To set the initial value of the ticker to 0 `tickerindex = 0` . Then to set the values of the Volumes, Starting Prices and Ending Prices to 0, and then to do it for each ticker (a "for" statement)
+The next step was to tell the progarm to examine all of the rows in the data sheet
+`RowCount = Cells(Rows.Count, "A").End(xlUp).Row`
+
+To set the initial value of the ticker to 0 
+`tickerindex = 0`
+
+Then to set the values of the Volumes, Starting Prices and Ending Prices to 0, and then to do it for each ticker (a "for" statement)
 
 ```
 For i = 0 To 11
