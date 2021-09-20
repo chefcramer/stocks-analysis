@@ -8,8 +8,8 @@
 ### Initial Coding to Begin the Analysis
 ![buttons and year pop-up](https://github.com/chefcramer/stocks-analysis/blob/main/screenshots%20for%20READ%20ME/buttons%20and%20year%20pop-up.png)
 	This screen shot shows the beginning work sheet for this analysis. The dialogue box asking which year you would like to analyze, the two buttons, the first to begin the analysis on all of the stocks and the second to clear all of the data and formatting. The coding for each individual item is as follows;
-	- The dialogue box asking you which year you would like to examine, yearValue = InputBox("What year would you like to run the analysis on?")
-	-	this button is generated using this subroutine
+	- The dialogue box asking you which year you would like to examine, `yearValue = InputBox("What year would you like to run the analysis on?")`
+	- this button is generated using this subroutine
 	- and this button is generated using this subroutine
 
 
